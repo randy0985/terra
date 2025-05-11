@@ -8,8 +8,8 @@ terraform {
 
 provider "iosxe" {
   username = "admin"
-  password = "pass"
-  url      = "https://10.11.11.1"
+  password = "C1sc0123"
+  url      = "https://10.31.31.1"
 }
 
 resource "iosxe_interface_loopback" "example" {
